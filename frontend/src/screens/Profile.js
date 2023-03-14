@@ -2,7 +2,8 @@ import { Link, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Spinner from '../components/Spinner';
-import { BASE_URL } from '../config';
+
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 const Profile = () => {
   const [profile, setProfile] = useState({});
