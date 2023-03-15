@@ -58,7 +58,7 @@ The sync server for this game can be hosted on [Render](https://render.com/) or 
 
 #### Setting up Cron Jobs
 To automatically call the endpoints of the sync server, you can use a third-party service like [cron-job.org](https://cron-job.org/en/).  
-The 2 urls will be `https://deployedUrl/sync/rating` and `https://deployedUrl/sync/delete`. Set the desired interval for the cron job. By default, the sync server is set to update the ratings every day at midnight GMT. If you need to change the duration, make sure to update the time difference in the `sync.js` file in the `sync/controllers` directory of the repository. 
+The 2 endpoints will be `https://deployedUrl/sync/rating` and `https://deployedUrl/sync/delete`. Set the desired interval for the cron job. By default, the sync server is set to update the ratings every day at midnight GMT. If you need to change the duration, make sure to update the time difference in the [`sync.js`](https://github.com/cmgchess/facemash-v2/blob/master/sync/controllers/sync.js) file in the `sync/controllers` directory of the repository. 
 
 ### Contributing
 This project is open-source and contributions are welcome. If you have any suggestions or would like to contribute to the project, please feel free to submit a pull request or open an issue.
