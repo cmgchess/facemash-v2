@@ -1,5 +1,5 @@
 ## Facemash V2
-Reusable solution inspired by Facemash ( As seen in [The Social Network (2010)](https://www.imdb.com/title/tt1285016/) ) that allows users to rate two Pokemons against each other. The game uses Glicko 2 rating system to calculate the relative strength of each Pokemon, and features a leaderboard that is automatically updated at GMT midnight. 
+Simple, Reusable, Prototypical solution inspired by Facemash ( As seen in [The Social Network (2010)](https://www.imdb.com/title/tt1285016/) ) that allows users to rate two Pokemons against each other. The game uses Glicko 2 rating system to calculate the relative strength of each Pokemon, and features a leaderboard that is automatically updated at GMT midnight. 
 ### Inspiration
 [![Facemash](https://img.youtube.com/vi/KdtPNRzuKrk/0.jpg)](https://www.youtube.com/watch?v=KdtPNRzuKrk)
 
