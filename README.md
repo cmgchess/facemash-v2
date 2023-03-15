@@ -1,5 +1,5 @@
 ## FaceMash V2
-Simple, Reusable, Prototypical solution inspired by FaceMash ( As seen in [The Social Network (2010)](https://www.imdb.com/title/tt1285016/) ) that allows users to rate two Pokemons against each other. The game uses Glicko 2 rating system to calculate the relative strength of each Pokemon, and features a leaderboard that is automatically updated at GMT midnight. 
+Simple, Reusable, Prototypical solution inspired by FaceMash ( As seen in [The Social Network (2010)](https://www.imdb.com/title/tt1285016/) ) that allows users to rate two Pokemons against each other. The game uses Glicko 2 rating system to calculate the relative strength?/popularity? whatever of each Pokemon, and features a leaderboard that is automatically updated at GMT midnight. 
 ### Inspiration
 [![FaceMash](https://img.youtube.com/vi/KdtPNRzuKrk/0.jpg)](https://www.youtube.com/watch?v=KdtPNRzuKrk)
 
@@ -31,7 +31,7 @@ Initial seed data for Algolia can be found [here](https://github.com/cmgchess/fa
   "rating": 1500
 }
 ```
-Note that the `id` field in the database seed data corresponds to the `objectID` field in the Algolia seed data, and that the `deviation` and `sigma` fields are only included in the database seed data.
+Note that the `id` field in the database seed data corresponds to the `objectID` field in the Algolia seed data, and that the `deviation` and `sigma` fields are only included in the database seed data. Also make sure to configure the `name` as a Searchable attribute and to configure the ranking to sort by decreasing `currRank` in Algolia.
 ### Deploying your own
 #### Backend
 The backend for this game is a Serverless API that is hosted on Vercel. To deploy the backend, follow these steps:
