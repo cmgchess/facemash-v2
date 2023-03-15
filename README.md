@@ -1,7 +1,7 @@
-## Facemash V2
-Simple, Reusable, Prototypical solution inspired by Facemash ( As seen in [The Social Network (2010)](https://www.imdb.com/title/tt1285016/) ) that allows users to rate two Pokemons against each other. The game uses Glicko 2 rating system to calculate the relative strength of each Pokemon, and features a leaderboard that is automatically updated at GMT midnight. 
+## FaceMash V2
+Simple, Reusable, Prototypical solution inspired by FaceMash ( As seen in [The Social Network (2010)](https://www.imdb.com/title/tt1285016/) ) that allows users to rate two Pokemons against each other. The game uses Glicko 2 rating system to calculate the relative strength of each Pokemon, and features a leaderboard that is automatically updated at GMT midnight. 
 ### Inspiration
-[![Facemash](https://img.youtube.com/vi/KdtPNRzuKrk/0.jpg)](https://www.youtube.com/watch?v=KdtPNRzuKrk)
+[![FaceMash](https://img.youtube.com/vi/KdtPNRzuKrk/0.jpg)](https://www.youtube.com/watch?v=KdtPNRzuKrk)
 
 ### Data
 The dataset is collected from [fanzeyi](https://github.com/fanzeyi)/**[pokemon.json](https://github.com/fanzeyi/pokemon.json)**
@@ -62,3 +62,6 @@ The 2 endpoints will be `https://deployedUrl/sync/rating` and `https://deployedU
 
 ### Contributing
 This project is open-source and contributions are welcome. If you have any suggestions or would like to contribute to the project, please feel free to submit a pull request or open an issue.
+
+### License
+FaceMash is an open-source project released under the MIT License.
