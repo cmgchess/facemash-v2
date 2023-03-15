@@ -31,7 +31,7 @@ Initial seed data for Algolia can be found [here](https://github.com/cmgchess/fa
   "rating": 1500
 }
 ```
-Note that the `id` field in the database seed data corresponds to the `objectID` field in the Algolia seed data, and that the `deviation` and `sigma` fields are only included in the database seed data. Also make sure to configure the `name` as a Searchable attribute and to configure the ranking to sort by decreasing `currRank` in Algolia.
+Note that the `id` field in the database seed data corresponds to the `objectID` field in the Algolia seed data, and that the `deviation` and `sigma` fields are only included in the database seed data. Also make sure to configure the `name` as a Searchable attribute and to configure the ranking to sort by increasing `currRank` in Algolia.
 ### Deploying your own
 #### Backend
 The backend for this game is a Serverless API that is hosted on Vercel. To deploy the backend, follow these steps:
