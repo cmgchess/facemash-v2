@@ -4,6 +4,7 @@ Reusable solution inspired by Facemash ( As seen in [The Social Network (2010)](
 [![Facemash](https://img.youtube.com/vi/KdtPNRzuKrk/0.jpg)](https://www.youtube.com/watch?v=KdtPNRzuKrk)
 
 ### Data
+The dataset is collected from [fanzeyi](https://github.com/fanzeyi)/**[pokemon.json](https://github.com/fanzeyi/pokemon.json)**
 #### Seed Data for MongoDB
 Initial seed data for MongoDB can be found [here](https://github.com/cmgchess/facemash-v2/blob/master/sync/data/pokemon-db.json). Initial `rating`,`deviation` and `sigma` are set to 1500, 350 and 0.06 respectively. The initial rank values are set to the same value as the `currRank` field, and `prevRank` is also initialized to the same value. Below is an example of what the seed data for a Pokemon in the database would look like: 
 ```json
