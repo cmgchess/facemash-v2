@@ -6,7 +6,7 @@ Simple, Reusable, Prototypical solution inspired by FaceMash ( As seen in [The S
 ### Data
 The dataset is collected from [fanzeyi](https://github.com/fanzeyi)/**[pokemon.json](https://github.com/fanzeyi/pokemon.json)**
 #### Seed Data for MongoDB
-Initial seed data for MongoDB can be found [here](https://github.com/cmgchess/facemash-v2/blob/master/sync/data/pokemon-db.json). Initial `rating`,`deviation` and `sigma` are set to 1500, 350 and 0.06 respectively. The initial rank values are set to the same value as the `currRank` field, and `prevRank` is also initialized to the same value. Below is an example of what the seed data for a Pokemon in the database would look like: 
+You need 2 MongoDB collections for the application. One for saving Pokemon data and the other for saving Match/Pairing data. Initial seed data for MongoDB can be found [here](https://github.com/cmgchess/facemash-v2/blob/master/sync/data/pokemon-db.json). Initial `rating`,`deviation` and `sigma` are set to 1500, 350 and 0.06 respectively. The initial rank values are set to the same value as the `currRank` field, and `prevRank` is also initialized to the same value. Below is an example of what the seed data for a Pokemon in the database would look like: 
 ```json
 {
   "id": "1",
@@ -20,7 +20,7 @@ Initial seed data for MongoDB can be found [here](https://github.com/cmgchess/fa
 }
 ```
 #### Seed Data for Algolia
-Initial seed data for Algolia can be found [here](https://github.com/cmgchess/facemash-v2/blob/master/sync/data/pokemon-algolia.json). Below is an example of what the seed data for a Pokemon in Algolia would look like: 
+You will have to create an Algolia index for this. You can do that for [free](https://www.algolia.com/pricing/). Initial seed data for Algolia can be found [here](https://github.com/cmgchess/facemash-v2/blob/master/sync/data/pokemon-algolia.json). Below is an example of what the seed data for a Pokemon in Algolia would look like: 
 ```json
 {
   "objectID": "1",
