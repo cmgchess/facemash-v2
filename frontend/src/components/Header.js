@@ -13,6 +13,9 @@ const Header = () => {
       <Link to="/inspiration" className="text-white hover:text-gray-300 ml-4">
         Inspiration
       </Link>
+      <Link to="https://github.com/cmgchess/facemash-v2" target="_blank" className="text-white hover:text-gray-300 ml-4">
+        Github
+      </Link>
       </div>
     </header>
   );
